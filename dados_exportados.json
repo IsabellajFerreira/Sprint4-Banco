@@ -1,0 +1,635 @@
+{
+    "metodo_pagamento": [
+        {
+            "_id": "6724223f9b8e9f4921a36db3",
+            "nome_metodo": "Cart\u00e3o de Cr\u00e9dito",
+            "id_historico": 1,
+            "id_assinatura": 1,
+            "data_pagamento": "2024-10-01T00:00:00",
+            "status_pagamento": "Completo",
+            "id_transacao": "TRX123456",
+            "moeda": "BRL",
+            "valor_pago": 120,
+            "notas": "Pagamento de assinatura mensal",
+            "detalhes_metodo": {
+                "tipo_cartao": "Visa",
+                "ultimos_quatro_digitos": "1234",
+                "validade": "2026-04"
+            }
+        },
+        {
+            "_id": "6724223f9b8e9f4921a36db4",
+            "nome_metodo": "Cart\u00e3o de D\u00e9bito",
+            "id_historico": 2,
+            "id_assinatura": 2,
+            "data_pagamento": "2024-09-15T00:00:00",
+            "status_pagamento": "Pendente",
+            "id_transacao": "TRX654321",
+            "moeda": "BRL",
+            "valor_pago": 150,
+            "notas": "Assinatura anual",
+            "detalhes_metodo": {
+                "nome_banco": "Banco do Brasil",
+                "tipo_conta": "Corrente",
+                "agencia": "001",
+                "numero_conta": "123456-7"
+            }
+        },
+        {
+            "_id": "672819e5b8fd32860a1015a4",
+            "nome_metodo": "Cartao de Credito",
+            "id_historico": 1,
+            "id_assinatura": 1,
+            "data_pagamento": "2024-10-01T00:00:00",
+            "status_pagamento": "Completo",
+            "id_transacao": "TRX123456",
+            "moeda": "BRL",
+            "valor_pago": 120,
+            "notas": "Pagamento de assinatura mensal",
+            "detalhes_metodo": {
+                "tipo_cartao": "Visa",
+                "ultimos_quatro_digitos": "1234",
+                "validade": "2026-04"
+            }
+        },
+        {
+            "_id": "672819e5b8fd32860a1015a5",
+            "nome_metodo": "Cartao de Debito",
+            "id_historico": 2,
+            "id_assinatura": 2,
+            "data_pagamento": "2024-09-15T00:00:00",
+            "status_pagamento": "Pendente",
+            "id_transacao": "TRX654321",
+            "moeda": "BRL",
+            "valor_pago": 150,
+            "notas": "Assinatura anual",
+            "detalhes_metodo": {
+                "nome_banco": "Banco do Brasil",
+                "tipo_conta": "Corrente",
+                "agencia": "001",
+                "numero_conta": "123456-7"
+            }
+        },
+        {
+            "_id": "67281bcb0d3af4f17c02dd17",
+            "nome_metodo": "Cartao de Credito",
+            "id_historico": 1,
+            "id_assinatura": 1,
+            "data_pagamento": "2024-10-01T00:00:00",
+            "status_pagamento": "Completo",
+            "id_transacao": "TRX123456",
+            "moeda": "BRL",
+            "valor_pago": 120,
+            "notas": "Pagamento de assinatura mensal",
+            "detalhes_metodo": {
+                "tipo_cartao": "Visa",
+                "ultimos_quatro_digitos": "1234",
+                "validade": "2026-04"
+            }
+        },
+        {
+            "_id": "67281bcb0d3af4f17c02dd18",
+            "nome_metodo": "Cartao de Debito",
+            "id_historico": 2,
+            "id_assinatura": 2,
+            "data_pagamento": "2024-09-15T00:00:00",
+            "status_pagamento": "Pendente",
+            "id_transacao": "TRX654321",
+            "moeda": "BRL",
+            "valor_pago": 150,
+            "notas": "Assinatura anual",
+            "detalhes_metodo": {
+                "nome_banco": "Banco do Brasil",
+                "tipo_conta": "Corrente",
+                "agencia": "001",
+                "numero_conta": "123456-7"
+            }
+        }
+    ],
+    "pay_hist": [
+        {
+            "_id": "6724223f9b8e9f4921a36daf",
+            "id_historico": 1,
+            "valor_pagamento": 100,
+            "data_pagamento": "2024-03-10T00:00:00",
+            "data_vencimento": "2024-03-01T00:00:00",
+            "nota_fiscal": "NotaFiscal123",
+            "id_assinatura": 1,
+            "metodo": "Cart\u00e3o",
+            "status": "Pago",
+            "taxa_juros": 1.5,
+            "desconto_aplicado": 10,
+            "descricao_transacao": "Assinatura mensal do plano Premium"
+        },
+        {
+            "_id": "6724223f9b8e9f4921a36db0",
+            "id_historico": 2,
+            "valor_pagamento": 80,
+            "data_pagamento": "2024-04-15T00:00:00",
+            "data_vencimento": "2024-04-10T00:00:00",
+            "nota_fiscal": "NotaFiscal456",
+            "id_assinatura": 2,
+            "metodo": "Boleto",
+            "status": "Atrasado",
+            "taxa_juros": 2,
+            "desconto_aplicado": 5,
+            "descricao_transacao": "Assinatura anual do plano B\u00e1sico"
+        }
+    ],
+    "subscription_company": [
+        {
+            "_id": "6724223f9b8e9f4921a36dad",
+            "id_assinatura": 1,
+            "valor_assinatura": 200,
+            "data_inicio": "2024-01-01T00:00:00",
+            "data_fim": "2025-01-01T00:00:00",
+            "status": "Ativo",
+            "id_empresa": 1,
+            "tipo_plano": "Mensal",
+            "metodo_pagamento": "Cart\u00e3o",
+            "nivel_suporte": "Premium",
+            "renovacao_automatica": true
+        },
+        {
+            "_id": "6724223f9b8e9f4921a36dae",
+            "id_assinatura": 2,
+            "valor_assinatura": 150,
+            "data_inicio": "2024-02-01T00:00:00",
+            "data_fim": "2025-02-01T00:00:00",
+            "status": "Inativo",
+            "id_empresa": 2,
+            "tipo_plano": "Anual",
+            "metodo_pagamento": "Boleto",
+            "nivel_suporte": "B\u00e1sico",
+            "renovacao_automatica": false
+        }
+    ],
+    "produto": [
+        {
+            "_id": "6724223f9b8e9f4921a36da7",
+            "id_produto": 1,
+            "nome": "Laptop",
+            "publico_alvo": "Entusiastas de Tecnologia",
+            "diferencial": "Alta qualidade",
+            "preco": 999.99,
+            "canal_vendas": "Online",
+            "categoria": "Eletr\u00f4nicos",
+            "descricao": "Produto eletr\u00f4nico de alta tecnologia",
+            "estoque": 50,
+            "avaliacao": 4.8,
+            "data_lancamento": "2024-01-15T00:00:00"
+        },
+        {
+            "_id": "6724223f9b8e9f4921a36da8",
+            "id_produto": 2,
+            "nome": "Smartphone",
+            "publico_alvo": "Entusiastas de Tecnologia",
+            "diferencial": "Baixo custo",
+            "preco": 699.99,
+            "canal_vendas": "Loja f\u00edsica",
+            "categoria": "Vestu\u00e1rio",
+            "descricao": "Roupas de alta qualidade",
+            "estoque": 200,
+            "avaliacao": 4.5,
+            "data_lancamento": "2024-05-10T00:00:00"
+        },
+        {
+            "_id": "672819e5b8fd32860a101598",
+            "id_produto": 1,
+            "nome": "Laptop",
+            "publico_alvo": "Entusiastas de Tecnologia",
+            "diferencial": "Alta qualidade",
+            "preco": 999.99,
+            "canal_vendas": "Online",
+            "categoria": "Eletronicos",
+            "descricao": "Produto eletronico de alta tecnologia",
+            "estoque": 50,
+            "avaliacao": 4.8,
+            "data_lancamento": "2024-01-15T00:00:00"
+        },
+        {
+            "_id": "672819e5b8fd32860a101599",
+            "id_produto": 2,
+            "nome": "Smartphone",
+            "publico_alvo": "Entusiastas de Tecnologia",
+            "diferencial": "Baixo custo",
+            "preco": 699.99,
+            "canal_vendas": "Loja fisica",
+            "categoria": "Vestuario",
+            "descricao": "Roupas de alta qualidade",
+            "estoque": 200,
+            "avaliacao": 4.5,
+            "data_lancamento": "2024-05-10T00:00:00"
+        },
+        {
+            "_id": "67281bcb0d3af4f17c02dd0b",
+            "id_produto": 1,
+            "nome": "Laptop",
+            "publico_alvo": "Entusiastas de Tecnologia",
+            "diferencial": "Alta qualidade",
+            "preco": 999.99,
+            "canal_vendas": "Online",
+            "categoria": "Eletronicos",
+            "descricao": "Produto eletronico de alta tecnologia",
+            "estoque": 50,
+            "avaliacao": 4.8,
+            "data_lancamento": "2024-01-15T00:00:00"
+        },
+        {
+            "_id": "67281bcb0d3af4f17c02dd0c",
+            "id_produto": 2,
+            "nome": "Smartphone",
+            "publico_alvo": "Entusiastas de Tecnologia",
+            "diferencial": "Baixo custo",
+            "preco": 699.99,
+            "canal_vendas": "Loja fisica",
+            "categoria": "Vestuario",
+            "descricao": "Roupas de alta qualidade",
+            "estoque": 200,
+            "avaliacao": 4.5,
+            "data_lancamento": "2024-05-10T00:00:00"
+        }
+    ],
+    "campanha": [
+        {
+            "_id": "6724223f9b8e9f4921a36dab",
+            "id_campanha": 1,
+            "nome_campanha": "Tech Expo 2024",
+            "data_registro": "2024-06-15T00:00:00",
+            "detalhes": "Apresentando o que h\u00e1 de mais moderno em tecnologia.",
+            "status": "Ativa",
+            "objetivo": "Aumentar vendas",
+            "orcamento": 5000,
+            "duracao_campanha": "3 meses",
+            "id_empresa": 1,
+            "id_produto": 1,
+            "publico_alvo": "Jovens",
+            "principais_canais": [
+                "Instagram",
+                "Facebook"
+            ]
+        },
+        {
+            "_id": "6724223f9b8e9f4921a36dac",
+            "id_campanha": 2,
+            "nome_campanha": "Fique em forma",
+            "data_registro": "2024-07-20T00:00:00",
+            "detalhes": "Equipamento de fitness inovador para todas as suas necessidades.",
+            "status": "Inativa",
+            "objetivo": "Aumentar reconhecimento de marca",
+            "orcamento": 3000,
+            "duracao_campanha": "2 meses",
+            "id_empresa": 2,
+            "id_produto": 2,
+            "publico_alvo": "Adultos",
+            "principais_canais": [
+                "Twitter",
+                "LinkedIn"
+            ]
+        },
+        {
+            "_id": "672819e5b8fd32860a10159c",
+            "id_campanha": 1,
+            "nome_campanha": "Tech Expo 2024",
+            "data_registro": "2024-06-15T00:00:00",
+            "detalhes": "Apresentando o que ha de mais moderno em tecnologia.",
+            "status": "Ativa",
+            "objetivo": "Aumentar vendas",
+            "orcamento": 5000,
+            "duracao_campanha": "3 meses",
+            "id_empresa": 1,
+            "id_produto": 1,
+            "publico_alvo": "Jovens",
+            "principais_canais": [
+                "Instagram",
+                "Facebook"
+            ]
+        },
+        {
+            "_id": "672819e5b8fd32860a10159d",
+            "id_campanha": 2,
+            "nome_campanha": "Fique em forma",
+            "data_registro": "2024-07-20T00:00:00",
+            "detalhes": "Equipamento de fitness inovador para todas as suas necessidades.",
+            "status": "Inativa",
+            "objetivo": "Aumentar reconhecimento de marca",
+            "orcamento": 3000,
+            "duracao_campanha": "2 meses",
+            "id_empresa": 2,
+            "id_produto": 2,
+            "publico_alvo": "Adultos",
+            "principais_canais": [
+                "Twitter",
+                "LinkedIn"
+            ]
+        },
+        {
+            "_id": "67281bcb0d3af4f17c02dd0f",
+            "id_campanha": 1,
+            "nome_campanha": "Tech Expo 2024",
+            "data_registro": "2024-06-15T00:00:00",
+            "detalhes": "Apresentando o que ha de mais moderno em tecnologia.",
+            "status": "Ativa",
+            "objetivo": "Aumentar vendas",
+            "orcamento": 5000,
+            "duracao_campanha": "3 meses",
+            "id_empresa": 1,
+            "id_produto": 1,
+            "publico_alvo": "Jovens",
+            "principais_canais": [
+                "Instagram",
+                "Facebook"
+            ]
+        },
+        {
+            "_id": "67281bcb0d3af4f17c02dd10",
+            "id_campanha": 2,
+            "nome_campanha": "Fique em forma",
+            "data_registro": "2024-07-20T00:00:00",
+            "detalhes": "Equipamento de fitness inovador para todas as suas necessidades.",
+            "status": "Inativa",
+            "objetivo": "Aumentar reconhecimento de marca",
+            "orcamento": 3000,
+            "duracao_campanha": "2 meses",
+            "id_empresa": 2,
+            "id_produto": 2,
+            "publico_alvo": "Adultos",
+            "principais_canais": [
+                "Twitter",
+                "LinkedIn"
+            ]
+        }
+    ],
+    "assinaturas_empresas": [
+        {
+            "_id": "672819e5b8fd32860a10159e",
+            "id_assinatura": 1,
+            "valor_assinatura": 200,
+            "data_inicio": "2024-01-01T00:00:00",
+            "data_fim": "2025-01-01T00:00:00",
+            "status": "Ativo",
+            "id_empresa": 1,
+            "tipo_plano": "Mensal",
+            "metodo_pagamento": "Cartao",
+            "nivel_suporte": "Premium",
+            "renovacao_automatica": true
+        },
+        {
+            "_id": "672819e5b8fd32860a10159f",
+            "id_assinatura": 2,
+            "valor_assinatura": 150,
+            "data_inicio": "2024-02-01T00:00:00",
+            "data_fim": "2025-02-01T00:00:00",
+            "status": "Inativo",
+            "id_empresa": 2,
+            "tipo_plano": "Anual",
+            "metodo_pagamento": "Boleto",
+            "nivel_suporte": "Basico",
+            "renovacao_automatica": false
+        },
+        {
+            "_id": "67281bcb0d3af4f17c02dd11",
+            "id_assinatura": 1,
+            "valor_assinatura": 200,
+            "data_inicio": "2024-01-01T00:00:00",
+            "data_fim": "2025-01-01T00:00:00",
+            "status": "Ativo",
+            "id_empresa": 1,
+            "tipo_plano": "Mensal",
+            "metodo_pagamento": "Cartao",
+            "nivel_suporte": "Premium",
+            "renovacao_automatica": true
+        },
+        {
+            "_id": "67281bcb0d3af4f17c02dd12",
+            "id_assinatura": 2,
+            "valor_assinatura": 150,
+            "data_inicio": "2024-02-01T00:00:00",
+            "data_fim": "2025-02-01T00:00:00",
+            "status": "Inativo",
+            "id_empresa": 2,
+            "tipo_plano": "Anual",
+            "metodo_pagamento": "Boleto",
+            "nivel_suporte": "Basico",
+            "renovacao_automatica": false
+        }
+    ],
+    "empresa": [
+        {
+            "_id": "6724223f9b8e9f4921a36da9",
+            "id_empresa": 1,
+            "nome_empresa": "Tech Innovations Inc.",
+            "cnpj": "12.345.678/0001-90",
+            "email": "contact@techinnovations.com",
+            "data_registro": "2022-10-10T00:00:00",
+            "setor": "Tecnologia",
+            "endereco": "Rua A, 123",
+            "telefone": "1234-5678",
+            "site": "https://techinnovations.com",
+            "pais": "Brasil"
+        },
+        {
+            "_id": "6724223f9b8e9f4921a36daa",
+            "id_empresa": 2,
+            "nome_empresa": "Eco Solutions Ltd.",
+            "cnpj": "23.456.789/0001-01",
+            "email": "contato@empresaB.com",
+            "data_registro": "2021-08-05T00:00:00",
+            "setor": "Varejo",
+            "endereco": "Rua B, 456",
+            "telefone": "8765-4321",
+            "site": "help@ecosolutions.com",
+            "pais": "Brasil"
+        },
+        {
+            "_id": "672819e5b8fd32860a10159a",
+            "id_empresa": 1,
+            "nome_empresa": "Tech Innovations Inc.",
+            "cnpj": "12.345.678/0001-90",
+            "email": "contact@techinnovations.com",
+            "data_registro": "2022-10-10T00:00:00",
+            "setor": "Tecnologia",
+            "endereco": "Rua A, 123",
+            "telefone": "1234-5678",
+            "site": "https://techinnovations.com",
+            "pais": "Brasil"
+        },
+        {
+            "_id": "672819e5b8fd32860a10159b",
+            "id_empresa": 2,
+            "nome_empresa": "Eco Solutions Ltd.",
+            "cnpj": "23.456.789/0001-01",
+            "email": "contato@empresaB.com",
+            "data_registro": "2021-08-05T00:00:00",
+            "setor": "Varejo",
+            "endereco": "Rua B, 456",
+            "telefone": "8765-4321",
+            "site": "help@ecosolutions.com",
+            "pais": "Brasil"
+        },
+        {
+            "_id": "67281bcb0d3af4f17c02dd0d",
+            "id_empresa": 1,
+            "nome_empresa": "Tech Innovations Inc.",
+            "cnpj": "12.345.678/0001-90",
+            "email": "contact@techinnovations.com",
+            "data_registro": "2022-10-10T00:00:00",
+            "setor": "Tecnologia",
+            "endereco": "Rua A, 123",
+            "telefone": "1234-5678",
+            "site": "https://techinnovations.com",
+            "pais": "Brasil"
+        },
+        {
+            "_id": "67281bcb0d3af4f17c02dd0e",
+            "id_empresa": 2,
+            "nome_empresa": "Eco Solutions Ltd.",
+            "cnpj": "23.456.789/0001-01",
+            "email": "contato@empresaB.com",
+            "data_registro": "2021-08-05T00:00:00",
+            "setor": "Varejo",
+            "endereco": "Rua B, 456",
+            "telefone": "8765-4321",
+            "site": "help@ecosolutions.com",
+            "pais": "Brasil"
+        }
+    ],
+    "usuario_perfil": [
+        {
+            "_id": "6724223f9b8e9f4921a36db1",
+            "id_usuario": 1,
+            "nome_usuario": "John Doe",
+            "senha_usuario": "admin123",
+            "data_registro": "2024-02-05T00:00:00",
+            "permissao_usuario": "Admin",
+            "status": "Ativo",
+            "id_empresa": 1,
+            "cargo": "Administrador",
+            "ultimo_login": "2024-10-22T00:00:00",
+            "departamento": "TI"
+        },
+        {
+            "_id": "6724223f9b8e9f4921a36db2",
+            "id_usuario": 2,
+            "nome_usuario": "Jane Smith",
+            "senha_usuario": "user123",
+            "data_registro": "2024-03-15T00:00:00",
+            "permissao_usuario": "Usu\u00e1rio",
+            "status": "Inativo",
+            "id_empresa": 2,
+            "cargo": "Usu\u00e1rio",
+            "ultimo_login": "2024-09-20T00:00:00",
+            "departamento": "Marketing"
+        },
+        {
+            "_id": "672819e5b8fd32860a1015a2",
+            "id_usuario": 1,
+            "nome_usuario": "John Doe",
+            "senha_usuario": "admin123",
+            "data_registro": "2024-02-05T00:00:00",
+            "permissao_usuario": "Admin",
+            "status": "Ativo",
+            "id_empresa": 1,
+            "cargo": "Administrador",
+            "ultimo_login": "2024-10-22T00:00:00",
+            "departamento": "TI"
+        },
+        {
+            "_id": "672819e5b8fd32860a1015a3",
+            "id_usuario": 2,
+            "nome_usuario": "Jane Smith",
+            "senha_usuario": "user123",
+            "data_registro": "2024-03-15T00:00:00",
+            "permissao_usuario": "Usu\u00e1rio",
+            "status": "Inativo",
+            "id_empresa": 2,
+            "cargo": "Usuario",
+            "ultimo_login": "2024-09-20T00:00:00",
+            "departamento": "Marketing"
+        },
+        {
+            "_id": "67281bcb0d3af4f17c02dd15",
+            "id_usuario": 1,
+            "nome_usuario": "John Doe",
+            "senha_usuario": "admin123",
+            "data_registro": "2024-02-05T00:00:00",
+            "permissao_usuario": "Admin",
+            "status": "Ativo",
+            "id_empresa": 1,
+            "cargo": "Administrador",
+            "ultimo_login": "2024-10-22T00:00:00",
+            "departamento": "TI"
+        },
+        {
+            "_id": "67281bcb0d3af4f17c02dd16",
+            "id_usuario": 2,
+            "nome_usuario": "Jane Smith",
+            "senha_usuario": "user123",
+            "data_registro": "2024-03-15T00:00:00",
+            "permissao_usuario": "Usuario",
+            "status": "Inativo",
+            "id_empresa": 2,
+            "cargo": "Usuario",
+            "ultimo_login": "2024-09-20T00:00:00",
+            "departamento": "Marketing"
+        }
+    ],
+    "historico_pagamentos": [
+        {
+            "_id": "672819e5b8fd32860a1015a0",
+            "id_historico": 1,
+            "valor_pagamento": 100,
+            "data_pagamento": "2024-03-10T00:00:00",
+            "data_vencimento": "2024-03-01T00:00:00",
+            "nota_fiscal": "NotaFiscal123",
+            "id_assinatura": 1,
+            "metodo": "Cartao",
+            "status": "Pago",
+            "taxa_juros": 1.5,
+            "desconto_aplicado": 10,
+            "descricao_transacao": "Assinatura mensal do plano Premium"
+        },
+        {
+            "_id": "672819e5b8fd32860a1015a1",
+            "id_historico": 2,
+            "valor_pagamento": 80,
+            "data_pagamento": "2024-04-15T00:00:00",
+            "data_vencimento": "2024-04-10T00:00:00",
+            "nota_fiscal": "NotaFiscal456",
+            "id_assinatura": 2,
+            "metodo": "Boleto",
+            "status": "Atrasado",
+            "taxa_juros": 2,
+            "desconto_aplicado": 5,
+            "descricao_transacao": "Assinatura anual do plano Basico"
+        },
+        {
+            "_id": "67281bcb0d3af4f17c02dd13",
+            "id_historico": 1,
+            "valor_pagamento": 100,
+            "data_pagamento": "2024-03-10T00:00:00",
+            "data_vencimento": "2024-03-01T00:00:00",
+            "nota_fiscal": "NotaFiscal123",
+            "id_assinatura": 1,
+            "metodo": "Cartao",
+            "status": "Pago",
+            "taxa_juros": 1.5,
+            "desconto_aplicado": 10,
+            "descricao_transacao": "Assinatura mensal do plano Premium"
+        },
+        {
+            "_id": "67281bcb0d3af4f17c02dd14",
+            "id_historico": 2,
+            "valor_pagamento": 80,
+            "data_pagamento": "2024-04-15T00:00:00",
+            "data_vencimento": "2024-04-10T00:00:00",
+            "nota_fiscal": "NotaFiscal456",
+            "id_assinatura": 2,
+            "metodo": "Boleto",
+            "status": "Atrasado",
+            "taxa_juros": 2,
+            "desconto_aplicado": 5,
+            "descricao_transacao": "Assinatura anual do plano Basico"
+        }
+    ]
+}
